@@ -1,0 +1,62 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  background-image: url("../assets//could-bg.jfif");
+  background-position: bottom ;
+  background-size: cover;
+}
+.app-warm{
+  text-align: center;
+  background-image: url("../assets//warm-bg.jfif");
+  background-position: bottom ;
+  background-size: cover;
+}
+main{
+  min-height: 100vh;
+  min-width: 100%;
+  background-image: linear-gradient(to bottom rgba(0,0,0.2),rgba(0,0,0.75));
+}
+.box input{
+  margin: 20px;
+  padding:  10px 15px ;
+  border-radius: 10px;
+  box-shadow: 5px 10px rgb(90, 89, 89);
+  width: 75%;
+  background-color: rgb(255,255,255,0.5);
+}
+.box input:focus{
+  background-color: rgb(255,255,255,0.75);
+}
+.location{
+  font-size: 32px;
+  font-weight: 500;
+}
+.day{
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 300;
+}
+.temp{
+  background-color: rgb(255,255,255,0.5);
+  margin: 20px auto;
+  width: 30%;
+  padding: 15px 25px;
+}
+.temp h2{
+  font-size: 56px;
+}
+.weather{
+  margin-top: -15px;
+  display: inline-block;
+  font-size: 46px;
+}
+.weather .desc{
+  font-size: 26px;
+  font-style: italic;
+  margin-top: -12px;
+}
